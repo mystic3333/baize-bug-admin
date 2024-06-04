@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "format": "prettier --write .",
+    "lint-staged": "lint-staged"
+  },
+  "devDependencies": {
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.5",
+    "prettier": "^3.3.0",
+    "typescript": "^5.4.5"
+  },
+  "lint-staged": {
+    "**/*.{js,ts,json}": "prettier --write ."
+  }
+}
